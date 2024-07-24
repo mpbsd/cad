@@ -1,0 +1,682 @@
++------------+--------------------------------------------------------------+--------+
+|    item    |                             text                             | points |
++------------+--------------------------------------------------------------+--------+
+| i-3-1      | coordenador de projeto de ensino com comprovacao de financia | 10.0   |
+|            | mento (exceto bolsas)                                        |        |
++------------+--------------------------------------------------------------+--------+
+| i-3-2      | coordenador de projeto de ensino sem financiamento (o total  | 5.0    |
+|            | maximo a ser considerado neste item sao 10 pontos)           |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-1.1   | com classificacao no qualis/capes a (para a determinacao do  | 25.0   |
+|            | qualis/capes, devera ser considerado o maior conceito do per |        |
+|            | iodico, independente da area do conhecimento)                |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-1.2   | com classificacao no qualis/capes b (para a determinacao do  | 20.0   |
+|            | qualis/capes, devera ser considerado o maior conceito do per |        |
+|            | iodico, independente da area do conhecimento)                |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-1.3   | com classificacao no qualis/capes c (para a determinacao do  | 15.0   |
+|            | qualis/capes, devera ser considerado o maior conceito do per |        |
+|            | iodico, independente da area do conhecimento)                |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-1.4   | nao sujeito a classificacao no qualis/capes (total maximo a  | 10.0   |
+|            | ser considerado neste item sao 10 pontos)                    |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-10    | edicao ou organizacao de livro (coletanea) publicado com sel | 12.0   |
+|            | o de editora que possua corpo editorial                      |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-11    | capitulo traduzido de livro publicado com selo de editora qu | 5.0    |
+|            | e possua corpo editorial (total maximo a ser considerado nes |        |
+|            | te item sao 20 pontos)                                       |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-12    | traducao de livro publicado com selo de editora que possua c | 20.0   |
+|            | orpo editorial                                               |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-13    | traducao de artigos publicados em periodicos com classificac | 10.0   |
+|            | ao no qualis                                                 |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-14    | resenhas, prefacios ou verbetes                              | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-1-15    | traducao de resenhas, prefacios ou verbetes                  | 2.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-1-16    | livro didatico desenvolvido para projetos institucionais/gov | 10.0   |
+|            | ernamentais                                                  |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-17.1  | internacional                                                | 15.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-1-17.2  | nacional                                                     | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-1-17.3  | regional ou local                                            | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-1-18    | dissertacao de mestrado defendida e aprovada (sendo o docent | 20.0   |
+|            | e o autor da dissertacao)                                    |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-19    | tese de doutorado defendida e aprovada (sendo o docente o au | 40.0   |
+|            | tor da tese)                                                 |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-20    | bolsista de produtividade do cnpq 20 (numero de pontos atrib | 20.0   |
+|            | uido a cada ano de efetivo exercicio da atividade -- para ca |        |
+|            | lculo proporcional de periodo inferior a um ano, considerar  |        |
+|            | quantidade de meses, independente do numero de dias dos mese |        |
+|            | s inicial e final)                                           |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-2     | resumo de artigo em periodicos especializados nacional ou in | 5.0    |
+|            | ternacional com corpo editorial                              |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-3     | artigos ou textos literarios em repositorios de publicacao e | 5.0    |
+|            | letronica ligados a editoras ou universidades (total maximo  |        |
+|            | a ser considerado neste item sao 10 pontos)                  |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-4.1   | internacional                                                | 8.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-1-4.2   | nacional                                                     | 6.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-1-4.3   | regional ou local                                            | 4.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-1-5.1   | internacional                                                | 4.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-1-5.2   | nacional                                                     | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-1-5.3   | regional ou local                                            | 2.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-1-6     | trabalho completo publicado em anais de congresso cientifico | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-1-7     | livro publicado com selo de editora que possua corpo editori | 40.0   |
+|            | al                                                           |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-8     | livro publicado com selo de editora que nao possua corpo edi | 10.0   |
+|            | torial                                                       |        |
++------------+--------------------------------------------------------------+--------+
+| ii-1-9     | capitulo de livro publicado com selo de editora que possua c | 10.0   |
+|            | orpo editorial (total maximo a ser considerado neste item sa |        |
+|            | o 40 pontos)                                                 |        |
++------------+--------------------------------------------------------------+--------+
+| ii-2-1.1   | locais ou regionais                                          | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-2-1.2   | nacionais                                                    | 15.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-2-1.3   | internacionais                                               | 20.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-2-10.1  | local ou regional                                            | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-2-10.2  | nacional                                                     | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-2-10.3  | internacional                                                | 15.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-2-11    | arranjos musicais (canto, coral e orquestral)                | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-2-12    | apresentacao artistica ou cultural em radio ou tv            | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-2-13    | sonoplastia (cinema, musica, radio, televisao, teatro)       | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-2-14    | fotos publicitarias, jornalisticas, portfolio ou dossie jorn | 3.0    |
+|            | alistico, ensaio jornalistico ou artistico, charge ou ilustr |        |
+|            | acao (total maximo a ser considerado neste item sao 15 ponto |        |
+|            | s)                                                           |        |
++------------+--------------------------------------------------------------+--------+
+| ii-2-2     | criacao e producao do projeto grafico de livros: concepcao g | 10.0   |
+|            | rafica (mancha grafica, diagramacao, escolha de fonte)       |        |
++------------+--------------------------------------------------------------+--------+
+| ii-2-3     | criacao de trilha sonora para cinema, televisao ou teatro    | 15.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-2-4     | criacao e producao de projeto de iluminacao cenica, figurino | 15.0   |
+|            | s, formas animadas e similares                               |        |
++------------+--------------------------------------------------------------+--------+
+| ii-2-5     | design de impressos por peca (limitados a 20 pontos)         | 1.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-2-6.1   | participacao individual, camerista, solista ou ator principa | 16.0   |
+|            | l                                                            |        |
++------------+--------------------------------------------------------------+--------+
+| ii-2-6.2   | participacao coletiva ou coadjuvante                         | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-2-7.1   | participacao individual, camerista, solista ou ator principa | 20.0   |
+|            | l                                                            |        |
++------------+--------------------------------------------------------------+--------+
+| ii-2-7.2   | participacao coletiva ou coadjuvante                         | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-2-8.1   | participacao individual, camerista, solista ou ator principa | 20.0   |
+|            | l                                                            |        |
++------------+--------------------------------------------------------------+--------+
+| ii-2-8.2   | participacao coletiva ou coadjuvante                         | 15.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-2-9.1   | editadas                                                     | 20.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-2-9.2   | publicadas em revistas cientificas                           | 20.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-2-9.3   | gravadas                                                     | 20.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-2-9.4   | executadas em apresentacoes publicas                         | 15.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-3-10    | parecer ad hoc de avaliacao para publicacao de livros de edi | 8.0    |
+|            | toras com corpo editorial (total maximo a ser considerado ne |        |
+|            | ste item sao 30 pontos)                                      |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-11    | parecer ad hoc de avaliacao de artigos para publicacao em pe | 6.0    |
+|            | riodicos especializados com corpo editorial (total maximo a  |        |
+|            | ser considerado neste item sao 30 pontos)                    |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-12.1  | trabalho completo                                            | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-3-12.2  | resumo expandido                                             | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-3-12.3  | resumo                                                       | 1.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-3-13    | revisao ad hoc de periodico cientifico com classificacao qua | 10.0   |
+|            | lis ou de livro publicado com selo de editora que possua cor |        |
+|            | po editorial (total maximo a ser considerado neste item sao  |        |
+|            | 20 pontos)                                                   |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-14    | coordenacao de mesas redondas, simposios ou sessoes de comun | 2.0    |
+|            | icacoes (total maximo a ser considerado neste item sao 10 po |        |
+|            | ntos)                                                        |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-15.1  | parecer com anotacao de responsabilidade tecnica (art) ou re | 10.0   |
+|            | gistro de responsabilidade tecnica (rrt)                     |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-15.2  | parecer sem anotacao de responsabilidade tecnica (art) ou re | 5.0    |
+|            | gistro de responsabilidade tecnica (rrt)                     |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-15.3  | projeto ou relatorio tecnico com anotacao de responsabilidad | 20.0   |
+|            | e tecnica (art) ou registro de responsabilidade tecnica (rrt |        |
+|            | )                                                            |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-15.4  | projeto ou relatorio tecnico sem anotacao de responsabilidad | 10.0   |
+|            | e tecnica (art) ou registro de responsabilidade tecnica (rrt |        |
+|            | )                                                            |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-16    | anais, manuais, catalogos, boletins, com ficha bibliografica | 5.0    |
+|            |  (organizador / redator)                                     |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-17    | producao e publicacao de mapas, cartas ou similares          | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-3-18    | desenvolvimento de maquete                                   | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-3-19.1  | restauracao de obra artistica                                | 20.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-3-19.2  | conservacao de obra artistica 10 (numero de pontos atribuido | 10.0   |
+|            |  a cada ano de efetivo exercicio da atividade -- para calcul |        |
+|            | o proporcional de periodo inferior a um ano, considerar quan |        |
+|            | tidade de meses, independente do numero de dias dos meses in |        |
+|            | icial e final)                                               |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-1     | desenvolvimento de programa de computador (software) com reg | 20.0   |
+|            | istro no inpi ou com disponibilizacao em ambientes de softwa |        |
+|            | re livre                                                     |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-20    | curadoria de exposicoes                                      | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-3-21.1  | editor, roteirista, diretor e produtor 20 (numero de pontos  | 20.0   |
+|            | atribuido a cada ano de efetivo exercicio da atividade -- pa |        |
+|            | ra calculo proporcional de periodo inferior a um ano, consid |        |
+|            | erar quantidade de meses, independente do numero de dias dos |        |
+|            |  meses inicial e final)                                      |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-21.2  | participante (total maximo a ser considerado neste item sao  | 3.0    |
+|            | 9 pontos)                                                    |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-22    | criacao e manutencao de paginas em rede sociais, websites e  | 4.0    |
+|            | blogs, vinculados aos projetos de ensino, pesquisa e extensa |        |
+|            | o, na area de atuacao do professor. (total maximo a ser cons |        |
+|            | iderado neste item sao 4 pontos) 4 (numero de pontos atribui |        |
+|            | do a cada ano de efetivo exercicio da atividade -- para calc |        |
+|            | ulo proporcional de periodo inferior a um ano, considerar qu |        |
+|            | antidade de meses, independente do numero de dias dos meses  |        |
+|            | inicial e final)                                             |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-23.1  | regional/local                                               | 2.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-3-23.2  | nacional                                                     | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-3-23.3  | internacional                                                | 4.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-3-3     | desenvolvimento de software para uso institucional (total ma | 5.0    |
+|            | ximo a ser considerado neste item sao 10 pontos)             |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-4     | desenvolvimento e registro no inpi de topografia de circuito | 20.0   |
+|            |  integrado                                                   |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-5     | desenvolvimento de produto, processo ou tecnica com registro | 20.0   |
+|            |  de patente no inpi ou modelo de utilidade                   |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-6     | desenvolvimento e registro no inpi de desenho industrial     | 20.0   |
++------------+--------------------------------------------------------------+--------+
+| ii-3-7     | desenvolvimento e registro no inpi de processo de indicacao  | 20.0   |
+|            | geografica                                                   |        |
++------------+--------------------------------------------------------------+--------+
+| ii-3-8     | desenvolvimento e registro no inpi de marcas                 | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| ii-3-9     | membro de corpo editorial de periodicos com classificacao qu | 10.0   |
+|            | alis ou de editora universitaria / cientifica 10 (numero de  |        |
+|            | pontos atribuido a cada ano de efetivo exercicio da atividad |        |
+|            | e -- para calculo proporcional de periodo inferior a um ano, |        |
+|            |  considerar quantidade de meses, independente do numero de d |        |
+|            | ias dos meses inicial e final)                               |        |
++------------+--------------------------------------------------------------+--------+
+| ii-4-1     | artigos de opiniao veiculados em jornais e revistas (eletron | 1.0    |
+|            | ico ou impresso)                                             |        |
++------------+--------------------------------------------------------------+--------+
+| ii-4-2     | texto ou material didatico para uso institucional (nao fraci | 2.0    |
+|            | onados e com ampla divulgacao)                               |        |
++------------+--------------------------------------------------------------+--------+
+| ii-4-3     | artigos de divulgacao cientifica, tecnologica e artistica ve | 3.0    |
+|            | iculados em jornais e revistas (eletronico ou impresso)      |        |
++------------+--------------------------------------------------------------+--------+
+| ii-4-4     | apresentacao oral de trabalho em congresso cientifico (total | 3.0    |
+|            |  maximo a ser considerado neste item sao 9 pontos)           |        |
++------------+--------------------------------------------------------------+--------+
+| ii-4-5     | apresentacao de posteres em congresso cientifico (total maxi | 1.0    |
+|            | mo a ser considerado neste item sao 3 pontos)                |        |
++------------+--------------------------------------------------------------+--------+
+| ii-4-6     | organizacao de caderno de programacao e resumos de eventos ( | 3.0    |
+|            | total maximo a ser considerado neste item sao 9 pontos)      |        |
++------------+--------------------------------------------------------------+--------+
+| ii-4-7     | trabalho premiado em evento cientifico nacional ou internaci | 5.0    |
+|            | onal                                                         |        |
++------------+--------------------------------------------------------------+--------+
+| ii-4-8     | tese, dissertacao ou trabalho de iniciacao cientifica premia | 8.0    |
+|            | dos por instituicoes de fomento (sendo o docente o autor ou  |        |
+|            | orientador do produto)                                       |        |
++------------+--------------------------------------------------------------+--------+
+| iii-1-1    | coordenador de projeto conjuntos de pesquisa e cooperacao ci | 10.0   |
+|            | entifica (tipo prodoc, procad, pnpd, entre outros) e de curs |        |
+|            | os minter e dinter aprovados por orgaos oficiais de fomento  |        |
++------------+--------------------------------------------------------------+--------+
+| iii-1-2    | coordenador de projeto de pesquisa ou inovacao aprovado com  | 10.0   |
+|            | comprovacao de financiamento (exceto para os que sao exclusi |        |
+|            | vamente destinado a bolsas)                                  |        |
++------------+--------------------------------------------------------------+--------+
+| iii-1-3    | coordenador de projeto de pesquisa ou inovacao aprovado sem  | 5.0    |
+|            | financiamento (total maximo a ser considerado neste item sao |        |
+|            |  10 pontos)                                                  |        |
++------------+--------------------------------------------------------------+--------+
+| iii-2-10.1 | presidente                                                   | 7.0    |
++------------+--------------------------------------------------------------+--------+
+| iii-2-10.2 | comissao organizadora                                        | 4.0    |
++------------+--------------------------------------------------------------+--------+
+| iii-2-11.1 | presidente                                                   | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| iii-2-11.2 | comissao organizadora                                        | 6.0    |
++------------+--------------------------------------------------------------+--------+
+| iii-2-12.1 | presidente                                                   | 15.0   |
++------------+--------------------------------------------------------------+--------+
+| iii-2-12.2 | comissao organizadora                                        | 8.0    |
++------------+--------------------------------------------------------------+--------+
+| iii-2-1    | coordenador de programa ou projeto de extensao aprovado com  | 10.0   |
+|            | comprovacao de financiamento (exceto para os que sao exclusi |        |
+|            | vamente destinado a bolsas) 10 (numero de pontos atribuido a |        |
+|            |  cada ano de efetivo exercicio da atividade -- para calculo  |        |
+|            | proporcional de periodo inferior a um ano, considerar quanti |        |
+|            | dade de meses, independente do numero de dias dos meses inic |        |
+|            | ial e final)                                                 |        |
++------------+--------------------------------------------------------------+--------+
+| iii-2-2    | coordenador de programa ou projeto de extensao/cultura cadas | 5.0    |
+|            | trado na proec (total maximo a ser considerado neste item sa |        |
+|            | o 15 pontos) 5 (numero de pontos atribuido a cada ano de efe |        |
+|            | tivo exercicio da atividade -- para calculo proporcional de  |        |
+|            | periodo inferior a um ano, considerar quantidade de meses, i |        |
+|            | ndependente do numero de dias dos meses inicial e final)     |        |
++------------+--------------------------------------------------------------+--------+
+| iii-2-3    | coordenador de contratos e de convenios de cooperacao instit | 5.0    |
+|            | ucional internacional 5 (numero de pontos atribuido a cada a |        |
+|            | no de efetivo exercicio da atividade -- para calculo proporc |        |
+|            | ional de periodo inferior a um ano, considerar quantidade de |        |
+|            |  meses, independente do numero de dias dos meses inicial e f |        |
+|            | inal)                                                        |        |
++------------+--------------------------------------------------------------+--------+
+| iii-2-4    | coordenador de contratos e de convenios de cooperacao instit | 3.0    |
+|            | ucional nacional 3 (numero de pontos atribuido a cada ano de |        |
+|            |  efetivo exercicio da atividade -- para calculo proporcional |        |
+|            |  de periodo inferior a um ano, considerar quantidade de mese |        |
+|            | s, independente do numero de dias dos meses inicial e final) |        |
++------------+--------------------------------------------------------------+--------+
+| iii-2-5    | participante de projeto de extensao/cultura cadastrado na pr | 3.0    |
+|            | oec (total maximo a ser considerado neste item sao 15 pontos |        |
+|            | ) 3 (numero de pontos atribuido a cada ano de efetivo exerci |        |
+|            | cio da atividade -- para calculo proporcional de periodo inf |        |
+|            | erior a um ano, considerar quantidade de meses, independente |        |
+|            |  do numero de dias dos meses inicial e final)                |        |
++------------+--------------------------------------------------------------+--------+
+| iii-2-6    | curso de extensao ministrado com 20 ou mais horas (total max | 5.0    |
+|            | imo a ser considerado neste item sao 15 pontos)              |        |
++------------+--------------------------------------------------------------+--------+
+| iii-2-7    | curso de extensao ministrado com menos de 20 horas (total ma | 2.0    |
+|            | ximo a ser considerado neste item sao 10 pontos)             |        |
++------------+--------------------------------------------------------------+--------+
+| iii-2-8.1  | evento internacional (total maximo a ser considerado neste i | 10.0   |
+|            | tem sao 20 pontos)                                           |        |
++------------+--------------------------------------------------------------+--------+
+| iii-2-8.2  | evento nacional (total maximo a ser considerado neste item s | 6.0    |
+|            | ao 12 pontos)                                                |        |
++------------+--------------------------------------------------------------+--------+
+| iii-2-8.3  | evento regional ou local (total maximo a ser considerado nes | 5.0    |
+|            | te item sao 10 pontos)                                       |        |
++------------+--------------------------------------------------------------+--------+
+| iii-2-9.1  | presidente                                                   | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| iii-2-9.2  | comissao organizadora                                        | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-1-10    | coordenador ou assessor vinculado as pro-reitorias ou as coo | 8.0    |
+|            | rdenacoes das regionais da ufg                               |        |
++------------+--------------------------------------------------------------+--------+
+| iv-1-11    | coordenador de programa de pos-graduacao stricto sensu       | 8.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-1-12    | coordenador de curso de ensino basico ou de graduacao        | 8.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-1-13    | vice-diretor de unidade academica ou subchefe de unidade aca | 8.0    |
+|            | demica especial ou do cepae                                  |        |
++------------+--------------------------------------------------------------+--------+
+| iv-1-14    | diretor do hospital veterinario                              | 8.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-1-15    | diretor de orgao da administracao (cercomp, cga, cegraf, cia | 8.0    |
+|            | r, ddrh, cs, siass, museu, radio, biblioteca etc.)           |        |
++------------+--------------------------------------------------------------+--------+
+| iv-1-1     | reitor ou vice-reitor ou pro-reitor                          | 14.0   |
++------------+--------------------------------------------------------------+--------+
+| iv-1-2     | diretor de regional da ufg                                   | 14.0   |
++------------+--------------------------------------------------------------+--------+
+| iv-1-3     | vice-diretor de regional da ufg                              | 12.0   |
++------------+--------------------------------------------------------------+--------+
+| iv-1-4     | coordenadores das regionais paralelos aos pro-reitores da uf | 12.0   |
+|            | g                                                            |        |
++------------+--------------------------------------------------------------+--------+
+| iv-1-5     | chefe de gabinete da reitoria                                | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| iv-1-6     | coordenador ou assessor vinculado a reitoria                 | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| iv-1-7     | assessor vinculado a diretoria de regional                   | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| iv-1-8     | diretor de unidade academica ou chefe de unidade academica e | 10.0   |
+|            | special ou do cepae                                          |        |
++------------+--------------------------------------------------------------+--------+
+| iv-1-9     | diretor geral do hospital das clinicas                       | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| iv-2-1     | coordenador de projeto institucional com financiamento ou de | 5.0    |
+|            |  contratos e convenio com plano de trabalho aprovado         |        |
++------------+--------------------------------------------------------------+--------+
+| iv-2-2     | coordenador de curso de especializacao, residencia medica ou | 10.0   |
+|            |  residencia multiprofissional em saude (total maximo a ser c |        |
+|            | onsiderado neste item sao 10 pontos por ano)                 |        |
++------------+--------------------------------------------------------------+--------+
+| iv-2-3     | vice-diretor do ciar ou subcoordenadores de cursos de gradua | 4.0    |
+|            | cao e de pos-graduacao stricto sensu 4 (numero de pontos atr |        |
+|            | ibuido a cada mes de efetivo exercicio no cargo -- independe |        |
+|            | nte do numero de dias relatado no mes, considerar mes comple |        |
+|            | to)                                                          |        |
++------------+--------------------------------------------------------------+--------+
+| iv-2-4     | membro representante de classe da carreira docente no consun | 10.0   |
+|            | i                                                            |        |
++------------+--------------------------------------------------------------+--------+
+| iv-2-5.1   | membro do conselho gestor das regionais ou das camaras regio | 10.0   |
+|            | nais setoriais                                               |        |
++------------+--------------------------------------------------------------+--------+
+| iv-2-5     | membro do conselho de curadores ou das camaras superiores se | 10.0   |
+|            | toriais ou do plenario do cepec ou de conselho de fundacoes  |        |
++------------+--------------------------------------------------------------+--------+
+| iv-2-6.1   | com carga horaria menor ou igual a 30 horas                  | 2.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-2-6.2   | com carga horaria maior do que 30 horas e menor ou igual a 6 | 4.0    |
+|            | 0 horas                                                      |        |
++------------+--------------------------------------------------------------+--------+
+| iv-2-6.3   | com carga horaria maior do que 60 horas e menor ou igual a 9 | 6.0    |
+|            | 0 horas                                                      |        |
++------------+--------------------------------------------------------------+--------+
+| iv-2-6.4   | com carga horaria maior do que 90 horas e menor ou igual a 1 | 8.0    |
+|            | 20 horas                                                     |        |
++------------+--------------------------------------------------------------+--------+
+| iv-2-6.5   | com carga horaria maior do que 120 horas e menor ou igual a  | 10.0   |
+|            | 150 horas                                                    |        |
++------------+--------------------------------------------------------------+--------+
+| iv-2-6.6   | com carga horaria maior do que 150 horas                     | 12.0   |
++------------+--------------------------------------------------------------+--------+
+| iv-3-10    | coordenador ou presidente da comissao responsavel pelas ativ | 3.0    |
+|            | idades de pesquisa/ensino/extensao/estagio das unidades acad |        |
+|            | emicas ou unidades academicas especiais                      |        |
++------------+--------------------------------------------------------------+--------+
+| iv-3-11    | chefia de departamento e respectivo vice ou atividade equiva | 3.0    |
+|            | lente                                                        |        |
++------------+--------------------------------------------------------------+--------+
+| iv-3-12    | chefe do pronto socorro ou da maternidade ou do cerof do hos | 3.0    |
+|            | pital das clinicas da ufg e respectivo vice                  |        |
++------------+--------------------------------------------------------------+--------+
+| iv-3-13    | membros dos comites de etica em pesquisa (cep) ou das comiss | 3.0    |
+|            | oes de etica no uso de animais (ceua)                        |        |
++------------+--------------------------------------------------------------+--------+
+| iv-3-14    | membros do comite interno do pibic e do pibiti               | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-15    | orientador tecnico titular de empresa junior                 | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-16    | orientador tecnico colaborador de empresa junior             | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-17    | coordenador de monitoria                                     | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-18    | coordenador de modulo de metodologia ativa                   | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-19    | coordenador de trabalho de conclusao de curso ou de pratica  | 2.0    |
+|            | como componente curricular                                   |        |
++------------+--------------------------------------------------------------+--------+
+| iv-3-1     | presidente da cppd                                           | 7.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-20.1  | com classificacao qualis a                                   | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-20.2  | com classificacao qualis b                                   | 4.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-20.3  | com classificacao qualis c                                   | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-20.4  | sem classificacao qualis                                     | 2.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-21    | membro de comite de assessoramento de agencias oficiais de f | 5.0    |
+|            | omento (faps, finep, capes, cnpq)                            |        |
++------------+--------------------------------------------------------------+--------+
+| iv-3-22    | membros de comissoes ou conselhos ou comites de orgaos gover | 5.0    |
+|            | namentais (inep, cne, outros)                                |        |
++------------+--------------------------------------------------------------+--------+
+| iv-3-2     | presidente dos comites de etica em pesquisa (cep) ou das com | 6.0    |
+|            | issoes de etica no uso de animais (ceua)                     |        |
++------------+--------------------------------------------------------------+--------+
+| iv-3-3     | presidente da comissao de avaliacao institucional ou da comi | 5.0    |
+|            | ssao propria de avaliacao                                    |        |
++------------+--------------------------------------------------------------+--------+
+| iv-3-4     | membros da coordenacao permanente do centro de selecao       | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-5     | diretores do hospital das clinicas                           | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-6     | membros da cppd, da comissao de avaliacao institucional, da  | 5.0    |
+|            | comissao propria de avaliacao, da cad                        |        |
++------------+--------------------------------------------------------------+--------+
+| iv-3-7     | membros da cpad ou da comissao de sindicancia ou da comissao | 5.0    |
+|            |  de processo administrativo                                  |        |
++------------+--------------------------------------------------------------+--------+
+| iv-3-8     | membro do nde                                                | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-3-9     | gestor de convenios/projetos internacionais da coordenadoria | 5.0    |
+|            |  de assuntos internacionais                                  |        |
++------------+--------------------------------------------------------------+--------+
+| iv-4-1     | representante titular em conselho de classe profissional com | 10.0   |
+|            |  carga horaria igual ou superior a 150 horas 10 (numero de p |        |
+|            | ontos atribuido a cada mes de efetivo exercicio no cargo --  |        |
+|            | independente do numero de dias relatado no mes, considerar m |        |
+|            | es completo)                                                 |        |
++------------+--------------------------------------------------------------+--------+
+| iv-4-2     | presidente do sindicato de docentes da ufg                   | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| iv-4-3     | diretor do sindicato de docentes da ufg                      | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| iv-4-4     | representante sindical com carga horaria igual ou superior a | 10.0   |
+|            |  150 horas 10 (numero de pontos atribuido a cada mes de efet |        |
+|            | ivo exercicio no cargo -- independente do numero de dias rel |        |
+|            | atado no mes, considerar mes completo)                       |        |
++------------+--------------------------------------------------------------+--------+
+| iv-4-5     | representante em entidade cientifica, artistica e cultural c | 10.0   |
+|            | om carga horaria igual ou superior a 150 horas 10 (numero de |        |
+|            |  pontos atribuido a cada mes de efetivo exercicio no cargo - |        |
+|            | - independente do numero de dias relatado no mes, considerar |        |
+|            |  mes completo)                                               |        |
++------------+--------------------------------------------------------------+--------+
+| iv-4-6     | representante em comissao de orgao governamental com carga h | 10.0   |
+|            | oraria igual ou superior a 150 horas 10 (numero de pontos at |        |
+|            | ribuido a cada mes de efetivo exercicio no cargo -- independ |        |
+|            | ente do numero de dias relatado no mes, considerar mes compl |        |
+|            | eto)                                                         |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-10     | aluno orientado em monografia de especializacao em andamento | 4.0    |
+|            |  (total maximo a ser considerado neste item sao 12 pontos)   |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-11     | aluno orientado em residencia medica ou em residencia multip | 5.0    |
+|            | rofissional em saude                                         |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-12     | aluno orientado em estagio curricular obrigatorio            | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| v-1-13     | aluno orientado em projeto de final de curso                 | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| v-1-14     | aluno de outra ife orientado em tese de doutorado defendida  | 6.0    |
+|            | e aprovada                                                   |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-15     | aluno de outra ife co-orientado em tese de doutorado defendi | 3.0    |
+|            | da e aprovada                                                |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-16     | aluno de outra ife orientado em tese de doutorado em andamen | 3.0    |
+|            | to                                                           |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-17     | aluno de outra ife co-orientado em tese de doutorado em anda | 2.0    |
+|            | mento                                                        |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-18     | aluno de outra ife orientado em dissertacao de mestrado defe | 4.0    |
+|            | ndida e aprovada                                             |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-19     | aluno de outra ife co-orientado em dissertacao de mestrado d | 2.0    |
+|            | efendida e aprovada                                          |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-1      | aluno orientado em tese de doutorado defendida e aprovada    | 20.0   |
++------------+--------------------------------------------------------------+--------+
+| v-1-20     | aluno de outra ife orientado em dissertacao de mestrado em a | 2.0    |
+|            | ndamento                                                     |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-21     | aluno de outra ife co-orientado em dissertacao de mestrado e | 1.0    |
+|            | m andamento                                                  |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-22     | aluno orientado em programas institucionais de iniciacao cie | 6.0    |
+|            | ntifica, tecnologica, extensao, ensino e similares (pibic /  |        |
+|            | pivic / pibiti / piviti / iti / itc / prolicen / picme- obme |        |
+|            | p / probec / provec / pibid)                                 |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-23     | aluno orientado em programas institucionais de iniciacao cie | 5.0    |
+|            | ntifica junior, jovens talentos, apoio tecnico e similares   |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-24     | aluno orientado em programa especial de treinamento (pet)    | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| v-1-25     | aluno com bolsa orientado em projetos de pesquisa /inovacao  | 4.0    |
+|            | / extensao / cultura / ensino                                |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-26     | aluno sem bolsa orientado em projetos de pesquisa, inovacao, | 3.0    |
+|            |  extensao, cultura e ensino.                                 |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-27     | aluno orientado em programa de monitoria                     | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| v-1-28     | aluno orientado em estagio curricular nao obrigatorio ou est | 2.0    |
+|            | agio docencia                                                |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-29     | aluno orientado em pratica como componente curricular (pcc)  | 1.0    |
++------------+--------------------------------------------------------------+--------+
+| v-1-2      | aluno co-orientado em tese de doutorado defendida e aprovada | 7.0    |
++------------+--------------------------------------------------------------+--------+
+| v-1-30     | aluno com deficiencia, transtornos globais do desenvolviment | 20.0   |
+|            | o e altas habilidades/superdotacao orientado em programa de  |        |
+|            | apoio pedagogico ou em trabalho final de curso (total maximo |        |
+|            |  a ser considerado neste item sao 40 pontos)                 |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-31     | pesquisador supervisionado em estagio de pos-doutoramento (p | 8.0    |
+|            | rodoc, pnpd, dcr, pdj, pds e similares)                      |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-32     | aluno orientado em atividade de preceptoria                  | 1.0    |
++------------+--------------------------------------------------------------+--------+
+| v-1-33     | aluno orientado em atividade de tutoria                      | 1.0    |
++------------+--------------------------------------------------------------+--------+
+| v-1-34     | aluno orientado em programa de intercambio internacional     | 1.0    |
++------------+--------------------------------------------------------------+--------+
+| v-1-35     | aluno de baixo rendimento acompanhado/orientado por meio de  | 4.0    |
+|            | um projeto de ensino aprovado em reuniao do conselho diretor |        |
+|            |  da unidade academica ou em reuniao do colegiado da unidade  |        |
+|            | academica especial (maximo de 20 pontos)                     |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-3      | aluno orientado em tese de doutorado em andamento            | 10.0   |
++------------+--------------------------------------------------------------+--------+
+| v-1-4      | aluno co-orientado em tese de doutorado em andamento         | 4.0    |
++------------+--------------------------------------------------------------+--------+
+| v-1-5      | aluno orientado em dissertacao de mestrado defendida e aprov | 15.0   |
+|            | ada                                                          |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-6      | aluno co-orientado em dissertacao de mestrado defendida e ap | 5.0    |
+|            | rovada                                                       |        |
++------------+--------------------------------------------------------------+--------+
+| v-1-7      | aluno orientado em dissertacao de mestrado em andamento      | 8.0    |
++------------+--------------------------------------------------------------+--------+
+| v-1-8      | aluno co-orientado em dissertacao de mestrado em andamento   | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| v-1-9      | aluno orientado em monografia de especializacao aprovada (ma | 8.0    |
+|            | ximo de 24 pontos)                                           |        |
++------------+--------------------------------------------------------------+--------+
+| v-2-1.1    | na instituicao                                               | 4.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-1.2    | em outra instituicao                                         | 6.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-10     | cursos, palestras ou treinamento nao curricular ministrados  | 2.0    |
+|            | para docentes, funcionarios ou alunos da ufg                 |        |
++------------+--------------------------------------------------------------+--------+
+| v-2-11     | coordenador de projeto institucional de intercambio internac | 10.0   |
+|            | ional 10 (numero de pontos atribuido a cada ano de efetivo e |        |
+|            | xercicio da atividade -- para calculo proporcional de period |        |
+|            | o inferior a um ano, considerar quantidade de meses, indepen |        |
+|            | dente do numero de dias dos meses inicial e final)           |        |
++------------+--------------------------------------------------------------+--------+
+| v-2-2      | membro de banca de concurso para docente substituto          | 2.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-3.1    | na instituicao                                               | 4.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-3.2    | em outra instituicao                                         | 6.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-4.1    | na instituicao                                               | 6.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-4.2    | em outra instituicao                                         | 8.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-5.1    | na instituicao                                               | 3.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-5.2    | em outra instituicao                                         | 4.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-6.1    | na instituicao                                               | 5.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-6.2    | em outra instituicao                                         | 6.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-7.1    | na instituicao                                               | 6.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-7.2    | em outra instituicao                                         | 8.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-8      | membro de banca de defesa de monografia, projeto final de cu | 3.0    |
+|            | rso e outros tipos de bancas (total maximo a ser considerado |        |
+|            |  neste item sao 12 pontos)                                   |        |
++------------+--------------------------------------------------------------+--------+
+| v-2-9.1    | concursos internacionais                                     | 8.0    |
++------------+--------------------------------------------------------------+--------+
+| v-2-9.2    | concursos nacionais                                          | 6.0    |
++------------+--------------------------------------------------------------+--------+
+| v-3-1      | docente regularmente matriculado em curso de pos-graduacao s | 12.0   |
+|            | tricto sensu com relatorios de pos-graduacao aprovados (pont |        |
+|            | uacao por mes de curso)                                      |        |
++------------+--------------------------------------------------------------+--------+
+| v-3-2      | estagio pos-doutoral ou estagio senior (pontuacao por mes de | 12.0   |
+|            |  estagio)                                                    |        |
++------------+--------------------------------------------------------------+--------+
+| v-3-3      | docente em licenca para capacitacao (artigo 87, lei n.8112)  | 12.0   |
+|            | , com relatorio final aprovado em reuniao do conselho direto |        |
+|            | r da unidade academica ou do colegiado da unidade academica  |        |
+|            | especial (pontuacao por mes de licenca)                      |        |
++------------+--------------------------------------------------------------+--------+
+| v-3-4      | curso de aperfeicoamento realizado com carga horaria igual o | 3.0    |
+|            | u superior a 40 horas                                        |        |
++------------+--------------------------------------------------------------+--------+
+| v-3-5      | curso de aperfeicoamento realizado com carga horaria inferio | 1.0    |
+|            | r a 40 horas                                                 |        |
++------------+--------------------------------------------------------------+--------+
+| v-3-6      | participacao em congressos, seminarios, encontros, jornadas  | 2.0    |
+|            | etc. (total maximo a ser considerado neste item sao 10 ponto |        |
+|            | s)                                                           |        |
++------------+--------------------------------------------------------------+--------+
