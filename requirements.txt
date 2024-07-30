@@ -1,6 +1,9 @@
+BeautifulSoup4
 black
 isort
+lxml
 odfpy
 pandas
 pdfplumber
+selenium
 unidecode
