@@ -2,9 +2,13 @@
 # -*- coding: utf-8 -*-
 
 
+import re
+
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+
+wschar = re.compile(r"\xa0")
 
 doc_url = (
     "https://docs.google.com/document/d/e/"
@@ -33,7 +37,7 @@ def main():
 
     for table in beautiful_soup.find_all("table"):
         for row in table.find_all("tr"):
-            data = [col.text for col in row.find_all("td")]
+            data = [wschar.sub(r"", col.text) for col in row.find_all("td")]
             print(data)
 
 
