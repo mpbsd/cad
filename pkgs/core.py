@@ -69,7 +69,7 @@ class Beans:
         return taxnr_siape + " " + years
 
 
-def usage():
+def help_message():
     help = """
 Exemplo de uso:
 
@@ -87,7 +87,7 @@ option        Deve ser uma das opções abaixo:
               (-e|--excel)  Grava os pontos coletados em planilha segundo o
                             formato aberto de documentos (ODF)
 """
-    print(help)
+    return help
 
 
 def main():
@@ -111,11 +111,11 @@ def main():
             if count:
                 print(beans.count())
             elif excel:
-                print(beans.tabularize())
+                beans.tabularize()
         else:
-            usage()
+            print(help_message())
     else:
-        usage()
+        print(help_message())
 
 
 if __name__ == "__main__":

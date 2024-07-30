@@ -1,5 +1,5 @@
 +------------+--------------------------------------------------------------+--------+
-|    item    |                             text                             | points |
+|    item    |                            texto                             | pontos |
 +------------+--------------------------------------------------------------+--------+
 | i-3-1      | coordenador de projeto de ensino com comprovacao de financia | 10.0   |
 |            | mento (exceto bolsas)                                        |        |
