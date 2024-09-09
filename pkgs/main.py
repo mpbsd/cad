@@ -26,33 +26,32 @@ def main():
     options.add_argument("--disable-extensions")
     options.add_argument("--headless=new")
 
-    driver = webdriver.Chrome(options=options)
-    driver.get(doc_url)
-    driver.implicitly_wait(0.5)
-    beautiful_soup = BeautifulSoup(driver.page_source, "lxml")
-    driver.implicitly_wait(0.5)
-    driver.quit()
-
-    with open("brew/A2RC182017.csv", "w") as csvfile:
-        for table in beautiful_soup.find_all("table"):
-            for row in table.find_all("tr"):
-                info = [
-                    unidecode(col.text.lower()).strip()
-                    for col in row.find_all("td")
-                ]
-                if len(info) == 1:
+    with webdriver.Chrome(options=options) as driver:
+        driver.get(doc_url)
+        driver.implicitly_wait(0.5)
+        beautiful_soup = BeautifulSoup(driver.page_source, "lxml")
+        with open("brew/A2RC182017.csv", "w") as csvfile:
+            for table in beautiful_soup.find_all("table"):
+                for row in table.find_all("tr"):
                     info = [
-                        spc_dash_spc_word.search(info[0]).group(1).strip(),
-                        spc_dash_spc_word.search(info[0]).group(4).strip(),
+                        unidecode(col.text.lower()).strip()
+                        for col in row.find_all("td")
                     ]
-                    if spc_dash.search(info[0]):
-                        info[0] = spc_dash.search(info[0]).group(1)
-                    elif spc_dash_spc.search(info[0]):
-                        info[0] = spc_dash_spc.sub(r"\1-\2", info[0])
-                    pr = f"{info[0]};{info[1]};;;;"
-                else:
-                    pr = f";{info[0]};{info[1]};{info[2]};{info[3]};{info[4]}"
-                print(pr, file=csvfile)
+                    if len(info) == 1:
+                        info = [
+                            spc_dash_spc_word.search(info[0]).group(1).strip(),
+                            spc_dash_spc_word.search(info[0]).group(4).strip(),
+                        ]
+                        if spc_dash.search(info[0]):
+                            info[0] = spc_dash.search(info[0]).group(1)
+                        elif spc_dash_spc.search(info[0]):
+                            info[0] = spc_dash_spc.sub(r"\1-\2", info[0])
+                        pr = "{};{};;;;".format(info[0], info[1])
+                    else:
+                        pr = ";{};{};{};{};{}".format(
+                            info[0], info[1], info[2], info[3], info[4]
+                        )
+                    print(pr, file=csvfile)
 
 
 if __name__ == "__main__":
